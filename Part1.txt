@@ -1,0 +1,40 @@
+﻿1. What is this code about?
+This code is an inventory management with different objects, the time remaining before expiry and their quality.
+
+2. Can you clearly identify the name of all the goods stored in the Guilded Rose?
+It is not very clear but, here is the inventory:
++5 Dexterity Vest
+Aged Brie
+Elixir of the Mongoose
+2 x Sulfuras, Hand of Ragnaros
+3 x Backstage passes to a TAFKAL80ETC concert
+Conjured Mana Cake
+
+3. What happens when the day is over?
+When then day is over :
+- sellIn decrease of 1 (can be negative) for all the goods except "Sulfuras, Hand of Ragnaros".
+- quality is update:
+    * For +5 Dexterity Vest: -1 each day it is not expired and -2 each day it is expired. Min = 0.
+    * For Conjured Mana Cake and Elixir of the Mongoose: -1 every day and -2 when going from 0 to -1. Min = 0.
+    * For Sulfuras, Hand of Ragnaros: Always 80.
+    * For Backstage passes: +1 when SellIn >10, +2 when SellIn in [5-10[ and +3 when SellIn lower than 5. Max 50. 0 after the concert.
+    * For Aged Brie: +1 each day it is not expired and +2 each day it is expired. Max 50.
+
+4. What happens to cheese when the day is over?
+Answer in 3.
+
+5. What happens when a concert ticket goes over its expiration day?
+His quality drop to 0.
+
+6. What makes this code hard to read?
+It is hard to read because for each iteration we have all the goods names, sellIN and quality, so it's hard to focus
+just on one product.
+
+7. Do you think the rules are clear enough so that you could rework the entire solution
+from scratch?
+No. Here are some anclear rules:
+    - "Sulfuras", being a legendary item, never has to be sold or decreases in Quality
+        -> never has to be sold means 0, -1, none value, we don't know.
+    - "Mana Cake" has no rules
+    - "Conjured" items degrade in Quality twice as fast as normal items
+        -> Conjured Mana Cake have no normal items Mana Cake.
