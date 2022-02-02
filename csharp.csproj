@@ -65,8 +65,11 @@
     <Compile Include="GildedRose.cs" />
     <Compile Include="GildedRoseTest.cs" />
     <Compile Include="Item.cs" />
+    <Compile Include="ItemUpdateClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IUpdate.cs" />
+    <Compile Include="UpdateFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

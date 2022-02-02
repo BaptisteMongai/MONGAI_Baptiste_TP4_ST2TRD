@@ -148,7 +148,8 @@ namespace csharp
         {
             // Arrange
             var randomObject = new Item {Name = "Random object", SellIn = -2, Quality = 0};
-            IList<Item> Items = new List<Item>{randomObject};
+            var conjuredObject = new Item {Name = "Random Conjured object", SellIn = -2, Quality = 1};
+            IList<Item> Items = new List<Item>{randomObject, conjuredObject};
             GildedRose app = new GildedRose(Items);
             
             // Act
@@ -156,8 +157,10 @@ namespace csharp
             
             // Assert
             Assert.AreEqual(randomObject.Quality, 0);
+            Assert.AreEqual(conjuredObject.Quality, 0);
         }
-        //This Test doesn't work now but it is normal, after part 4 it will work.
+        
+        //This Test doesn't work now but it is normal, after part 3 it will work.
         [Test]
         public void Should_Quality_Of_Object_Decrease_Two_Times_Faster_For_A_Conjured_Object_When_Day_Passes()
         {
