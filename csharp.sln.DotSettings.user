@@ -1,16 +1,6 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7ee324b4_002D6729_002D4823_002Dbe91_002D8004bdf26a77/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="QuallityBrie" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::176C0214-9136-4079-8DAB-11D7420C3881::.NETFramework,Version=v4.5.2::csharp.GildedRoseTest.Should_Increase_Quality_Of_Aged_Brie_By_Two_After_SellIn_When_Day_Passes&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::176C0214-9136-4079-8DAB-11D7420C3881::.NETFramework,Version=v4.5.2::csharp.GildedRoseTest.Should_Quality_Of_Sulfuras_Not_Change_When_Day_Passes&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::176C0214-9136-4079-8DAB-11D7420C3881::.NETFramework,Version=v4.5.2::csharp.GildedRoseTest.Should_SellIn_Of_Sulfuras_Not_Change_When_Day_Passes&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::176C0214-9136-4079-8DAB-11D7420C3881::.NETFramework,Version=v4.5.2::csharp.GildedRoseTest.Should_Increase_Quality_Of_Aged_Brie_By_One_Before_SellIn_When_Day_Passes&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::176C0214-9136-4079-8DAB-11D7420C3881::.NETFramework,Version=v4.5.2::csharp.GildedRoseTest.Should_Quality_Of_Backstage_Passes_Increase_By_One_When_Day_Passes_And_SellIn_Higher_Than_Ten&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::176C0214-9136-4079-8DAB-11D7420C3881::.NETFramework,Version=v4.5.2::csharp.GildedRoseTest.Should_Quality_Of_Backstage_Passes_Increase_By_Two_When_Day_Passes_And_SellIn_Between_Five_And_Ten&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::176C0214-9136-4079-8DAB-11D7420C3881::.NETFramework,Version=v4.5.2::csharp.GildedRoseTest.Should_Quality_Of_Backstage_Passes_Increase_By_Three_When_Day_Passes_And_SellIn_Lower_Than_Five&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::176C0214-9136-4079-8DAB-11D7420C3881::.NETFramework,Version=v4.5.2::csharp.GildedRoseTest.Should_Quality_Of_Backstage_Passes_Increase_Egal_Zero_When_SellIn_Lower_Than_Zero&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::176C0214-9136-4079-8DAB-11D7420C3881::.NETFramework,Version=v4.5.2::csharp.GildedRoseTest.Quality_Never_Higher_Than_Fifty&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::176C0214-9136-4079-8DAB-11D7420C3881::.NETFramework,Version=v4.5.2::csharp.GildedRoseTest.Quality_Never_Lower_Than_Zero&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::176C0214-9136-4079-8DAB-11D7420C3881::.NETFramework,Version=v4.5.2::csharp.GildedRoseTest.Should_Quality_Of_Object_Decrease_Two_Times_Faster_For_A_Conjured_Object_When_Day_Passes&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::176C0214-9136-4079-8DAB-11D7420C3881::.NETFramework,Version=v4.5.2::csharp.GildedRoseTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

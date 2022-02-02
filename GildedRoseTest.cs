@@ -157,7 +157,7 @@ namespace csharp
             // Assert
             Assert.AreEqual(randomObject.Quality, 0);
         }
-        
+        //This Test doesn't work now but it is normal, after part 4 it will work.
         [Test]
         public void Should_Quality_Of_Object_Decrease_Two_Times_Faster_For_A_Conjured_Object_When_Day_Passes()
         {
